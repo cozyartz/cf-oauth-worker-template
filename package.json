@@ -1,0 +1,16 @@
+{
+  "name": "cf-oauth-worker-template",
+  "version": "1.0.0",
+  "scripts": "Cloudflare Worker template for OAuth Callbacks",
+  "main": "src/index.ts",
+  "author": "cozyartz",
+  "license": "MIT",
+  "scripts": {
+    "develop": "wrangler deploy",
+    "start": "wrangler test",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.10.0"
+  }
+}
