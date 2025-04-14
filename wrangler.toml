@@ -1,0 +1,8 @@
+name: "cf-oauth-worker-template"
+main = "src/index.ts"
+compatibility_date = "2025-04-13"
+
+"variables": {
+  "NIFTY_CLIENT_ID": "your-client-id-here",
+  "NIFTY_CLIENT_SECRET": "your-client-secret-here"
+}
